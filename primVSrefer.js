@@ -38,7 +38,9 @@ console.log("let objC = objA;", objC.valueOne, objC.valueTwo);
 objA.valueOne = 11;
 console.log("---------  objA.valueOne = 11  --------------");
 
-console.log("let objA = {valueOne: 1, valueTwo: 2};", objA.valueOne, objA.valueTwo);
-console.log("let objB = {valueOne: 3, valueTwo: 4};", objB.valueOne, objB.valueTwo);
-console.log("let objC ", objC.valueOne, objC.valueTwo);
+console.log("objA ", objA.valueOne, objA.valueTwo);
+console.log("objB ", objB.valueOne, objB.valueTwo);
+console.log("objC ", objC.valueOne, objC.valueTwo);
 console.log("=============================================");
+
+// https://www.youtube.com/watch?v=-hBJz2PPIVE
